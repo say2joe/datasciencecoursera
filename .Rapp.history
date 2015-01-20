@@ -1,0 +1,63 @@
+getwd()
+getwd()
+intro <- function(x) {#
+	y <- rnorm(100)#
+	mean(y)#
+}
+ls()
+intro()
+getwd()
+dir()
+source('test.R')
+ls()
+another(5)
+another(5:67)
+version()
+help()
+x <- 1
+print(x0)
+print(x)
+x
+x <- 'fu'
+x
+x <- Math.PI
+x <- PI
+help(math)
+help(builtin)
+??builtin
+builtins()
+builtins(true)
+builtins(1)
+pi
+x <- pi
+pi <- 3.141592653589793
+pi
+math <- {}
+math
+math.pi <- 3.141592653589793
+math.pi
+math.range <- 1:49
+math.range
+math.nan <- NaN
+math.nan
+math.int <- 1L
+math.in
+math.int
+math.num <- 1
+math.num
+attributes(math)
+attributes(math.num)
+attributes(math.int)
+attributes(math.nan)
+attributes(math)
+math.attributes()
+attributes('math')
+c(T,F)
+c(T,F)
+c(1,F)
+c(T,0)
+c(T,False)
+c(T,FALSE)
+c(3.141592653589793, 68)
+c(3.141592653589793, 69)
+3:69
