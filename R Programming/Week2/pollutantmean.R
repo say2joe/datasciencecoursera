@@ -22,6 +22,8 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
     ## Push values to holding vector for later mean() calculation.
     levels <- append(levels, data[!is.na(data)], after=length(levels))
   }
+
+  rm(data)
   setwd(pwd)
 
   ## Return the mean of the pollutant across all monitors list
